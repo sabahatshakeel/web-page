@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* .navbar{
+    background-color: white;
+}
+.navbar ul{
+    display: flex;
+    width: 50%;
+}
+.navbar h1{
+    width: 50%;
+    display: flex;
+    padding: 15px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.navbar ul li:hover{
+    background-color: #ffd74f;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+} */
+#home {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+
+}
+
+#home p {
+    color: #00a063;
+    font-weight: bold;
+}
+
+#home h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+
+#home .box {
+    background-color: white;
+    padding: 25px 80px;
+    border-radius: 15px;
+    margin-bottom: 80%;
+}
+
+#home .box input {
+    border: 2px solid rgb(197, 191, 191);
+    border-bottom: 2px solid rgb(247, 245, 245);
+    border-right: 2px solid rgb(247, 245, 245);
+    padding: 20px;
+}
+
+#about {
+    height: 600px;
+    background-color: white;
+    display: flex;
+
+    padding: 7% 10% 9%;
+}
+
+.secsection1 {
+    width: 50%;
+    margin-bottom: 2%;
+
+}
+
+.secsection1 .para {
+    color: #00a063;
+    margin-bottom: 3%;
+}
+
+.secsection1 h2 {
+    margin-top: 3%;
+    color: rgb(88, 85, 85);
+}
+
+.secsection1 p {
+    margin-top: 3%;
+    color: grey;
+    line-height: 25px;
+}
+
+.secsection2 {
+    width: 50%;
+
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#contact {
+    align-items: center;
+
+}
+
+#contact .box2 {
+    margin-left: 15%;
+    width: 35%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+    border-top: 20px #f65b35 solid;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 6%
+}
+
+#contact .box2 h1 {
+    margin-bottom: 10%;
+
+}
+
+#shop {
+    padding: 5%;
+}
+
+#shop .boxes {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+#shop .boxes .boxa {
+    padding: 40px 20px;
+}
+
+#shop .boxes img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+#reviews {
+    height: 600px;
+    padding: 2% 5%;
+
+}
+
+#reviews .top {
+
+    text-align: left;
+    margin-bottom: 3%;
+
+}
+
+#reviews #boxes {
+    display: flex;
+
+}
+
+#reviews .boxlast {
+    padding: 5%;
+
+    margin: 1% 2%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    color: grey;
+    ;
+}
+
+#reviews .boxlast h3 {
+    color: rgb(77, 72, 72);
+
+}
+
+#reviews #boxes img {
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.fifthsec .boxb {
+    width: 33%;
+   padding-top: 7%;
+    /* padding: 10% 0 5% 9%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-b{
+    /* padding-top: -50px; */
+    padding-bottom: 3%;
+}
+
+
+.fifthsec .boxb h1 {
+    padding-bottom: 3%;
+}
+.footer{
+    margin-top: 5%;
+}
+.footer a {
+    margin: 10px;
+    
+    
+   
+}
+.footer img{
+  
+    
+    width: 35px;
+    transition: width;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: linear;
+    
+    
+  
+}
+
+
+.footer img:hover{
+    transition: all;
+    width: 20px;
+    margin: 0 7px;
+   
+   }
+   /* @keyframes img{
+    0%{
+        background: url(images/blue\ fb.png);
+    }
+    100%{
+        background: url(images/icons8-facebook-48.png);
+    }
+   } */
